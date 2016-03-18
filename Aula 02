@@ -1,0 +1,65 @@
+<h1><b>Estruturas de Armazenamento e Tipos</b></h1>
+
+<p>Linguagem dinamicamente tipada, significa que a tipagem não é determinante, podendo-se trocar tanto valores quanto tipo de dados.</p>
+
+Numeros: Inteiros e Float.
+
+Strings:  Textos.
+
+Booleanos: TRUE e FALSE.
+
+<h3>Estruturas de Armazenamento</h3>
+
+><h5><b>Variaveis:</b></h5> 
+
+São estruturas de armazenamento simples pois podem armazenar apenas um valor por vez, as variaveis  em php são iniciadas com o caracter $(dolar), podendo tambem variar os seus valores e tipos.
+
+<code>Ex: $teste, $_teste</code>
+
+<p>Nomenclatura, o nome de variáveis <b>DEVE</b> iniciar por uma letra podendo também ser iniciada por um (_)sublinhado, após pode ser seguido por letras ou números ou sublinhado.</p>
+
+<code>$a = 8;</code>
+
+Existem dois processos a partir da declaração da variável acima:
+
+* Criamos a variavel
+* Atribuimos a ela um valor inicial
+
+<code>echo $a;</code>
+
+Interpolação: a substituição da variável pelo seu valor, irá buscar o valor armazenado anteriormente à variável.
+
+><h5><b>Constantes:</b></h5>
+
+Tem que manter o seu valor constante durante toda execução do código,
+
+<code>Ex: define('PI', 3.1415);</code>
+
+><h5><b>Arrays ou Matriz:</b></h5>
+
+É uma estrutura de armazenamento composto, sendo assim pode armazenar varios valores em sua memoria.
+
+A linguagem indexa os valores matemáticamente.
+<code>
+$m = array(2,6,8,10);
+$m[2] = TRUE;
+</code>
+
+Arrays Assosciativos 
+<code>
+$instrutor = array('nome' => 'Galvao');
+</code>
+><h5><b>Objetos</b></h5>
+
+<b>Funções Para tratamento de tipos</b>
+
+gettype: retorna o tipo da variável;
+settype: alterar o tipo de dados;
+
+><h5><b>Type casting </b></h5>
+
+<i>Transforma temporariamente o valor de uma estrutura de armazenamento, em um tipo desejado.</i>
+
+(tipo)dado
+
+<code>return (int)$valaor;</code>
