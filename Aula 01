@@ -1,0 +1,36 @@
+<h1>PHP AULA 1</h1>
+
+><h4>Instalação</h4>
+
+<b>
+apt-get = gerenciador de pacotes do debian
+mysql-client = Cliente do banco mysql
+mysql-server = Servidor
+php5 = Código fonte do php (core)
+php-cli = cliente php, interpretador
+php-cgi = php web
+php-msqlnd(Native driver) = extesão mysql
+</b>
+
+><h3>Web(Arquitetura Cliente-Servidor)</h3>
+
+Cliente = Html, CSS, JavaScript
+Servidor = PHP, Java, Python, Ruby
+
+<b>Um ambiente não entende o outro.</b>
+
+<p>web é um dialogo entre estes dois lados(cliente-servidor)
+a maquina cliente faz uma requisicao, solicitando ao servidor um determinado arquivo, e o servidor obtem esse arquivo caso exista, processa o arqui se necessario e então entrega a resposta do arquivo ao cliente.</p>
+
+<p>quando ocliente faz a solicitacao de um arquivo html, o servidor recebe a requisicao e procura em seu disco, ao encontrar, como o servidor não entende html por ser client-side então envia o arquivo a maquina cliente que por sua vez o browser compila o arquivo reinderizando na tela do usuario.</p>
+
+<p>se fizer um requisição de um arquivo php, o servidor procura em seu disco, porém ao contrario do html onde ele apenas entrega o arquivo e o cliente  tambem não entende php, no caso do arquivo php o arquivo é interpretado pelo servidor que gera um aquivo html para ser enviado ao cliente.</p>
+
+><h3>Padrões de código</h3>
+
+<ul>
+<li>sublinhado (hello_world)</li>
+<li>camel case (helloWorld)</li>
+<li>study Caps (hEllOwOrld)</li>
+</ul>
+
